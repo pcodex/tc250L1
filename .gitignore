@@ -1,0 +1,9 @@
+Debug
+.vs
+*tlog
+*.vc*
+*.sln
+*.log
+*.obj
+*.pdb
+*.idb
