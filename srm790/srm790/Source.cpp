@@ -1,12 +1,12 @@
 /*
 
 Problem Statement
-    
+Â Â Â Â 
 Alice has invited her two best friends, Charlie and Eric, to her birthday party. She has K boxes containing gifts for them. The boxes are numbered from 1 to K. For each i, box number i contains Fi gifts, where Fi is the ith Fibonacci number. (F1 = 1, F2 = 1, and for each i > 2, Fi = Fi - 1 + Fi - 2.)
 Alice likes both of her friends equally, so she wants to distribute these K boxes between them in such a way that both of them get an equal total number of gifts. If that is possible, return a vector <int> containing box numbers which one of the two friends should receive. Note that all the boxes not chosen for this friend automatically go to the other friend. If there are multiple answers, you may return any of them.
 If there is no solution, return the vector <int> {-1} instead i.e. an array with -1 as its only element.
 Definition
-    
+Â Â Â Â 
 Class:
 AlicesBirthday
 Method:
@@ -19,7 +19,7 @@ Method signature:
 vector <int> partition(int k)
 (be sure your method is public)
 Limits
-    
+Â Â Â Â 
 Time limit (s):
 2.000
 Memory limit (MB):
@@ -33,7 +33,7 @@ K will be between 1 and 40, inclusive.
 Examples
 0)
 
-    
+Â Â Â Â 
 3
 Returns: {3 }
 There are K = 3 boxes containing gifts. Box 1 contains F1 = 1 gift, box 2 contains F2 = 1 gift, and box 3 contains F3 = 2 gifts.
@@ -41,13 +41,13 @@ Giving boxes #1 and #2 to Charlie and box #3 to Eric means that each of them rec
 {1, 2} and {2, 1} are two other valid return values for this test case.
 1)
 
-    
+Â Â Â Â 
 5
 Returns: {5, 1 }
 F1 + F5 = 1 + 5 = 6. F2 + F3 + F4 = 1 + 2 + 3 = 6.
 2)
 
-    
+Â Â Â Â 
 1
 Returns: {-1 }
 Since there is only one box containing a single gift, there is no way for Charlie and Eric to have an equal number of gifts.
@@ -55,7 +55,7 @@ This problem statement is the exclusive and proprietary property of TopCoder, In
 */
 
 #include <vector>
-#include <string>
+//#include <string>
 #include <sstream>
 #include <algorithm>
 
